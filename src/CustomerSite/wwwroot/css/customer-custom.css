@@ -1,6 +1,5 @@
 ﻿body {
-    font-family: 'Segoe UI', 'sans-serif' !important;
-    color: black !important;
+    color: rgb(12, 54, 91) !important;
     font-size: 16px !important;
     height: 100%;
     margin: 0;
@@ -12,7 +11,7 @@
 }
 
 .cm-top-nav-bar {
-    background-color: #004578 !important;
+    background-color: rgb(12, 54, 91) !important;
     margin-bottom: 0px;
     border: 0px;
     height:48px;
@@ -46,7 +45,6 @@
 }
 
 .text-white {
-    color: white !important;
 }
 
 .cm-menu-item {
@@ -72,20 +70,17 @@
 }
 
 .cm-panel-default {
-    background: #F9F9F9 !important;
-    border-radius: 0px;
+    background: rgba(249, 249, 249, 1) !important;
+    border-radius: 15px;
     padding: 20px;
 }
 
 .cm-section-heading {
-    font-family: 'Segoe UI', 'sans-serif' !important;
     font-size: 25px;
-    background-color: #fff;
-    border-bottom: 4px solid #2180a6;
     text-transform: uppercase;
     margin-bottom: 20px;
     line-height: 40px;
-    color: black;
+    color: rgb(12, 54, 91);
 }
 
 .p10 {
@@ -126,8 +121,8 @@
 
 .cm-button-default {
     color: #fff !important;
-    background-color: #004578;
-    border-color: #2e6da4;
+    background-color: rgb(12, 54, 91);
+    border-color: rgb(12, 54, 91);
     display: inline-block;
     font-weight: 400;
     text-align: center;
@@ -353,10 +348,6 @@ a.cm-dropdown-option {
     width: 1300px !important;
 }
 
-
-.mr420 {
-    margin-right: !important;
-}
 .red-star {
     color: red;
 }
